@@ -1,0 +1,36 @@
+########## TAXONOMIC ANNOTATION KRAKEN2#########################################################
+
+#Script to make taxonomy annotation with kraken2 against the NCBI nt and Refseq of Bacteria, Arquea and Viruses databases.
+
+#Make 4 directories with the names 0hrs 9hrs 24hrs 48hrs
+$for cosa in $(cat list.txt);do (mkdir $cosa) ;done
+
+#### Create a symbolic link to the sediment fastqs and make the folders for them. 
+$ ln -s /tres/samples/CIGoM/*SED*.fastq .
+$ ln -s //tres/samples/pozol/shotgun/raw_sequences/*fastq .
+$ for cosa in $(cat list.txt); do (mv *$cosa*.f*q* $cosa);done
+
+##############Make report from kraken2.
+$ for cosa in $(cat list.txt);do(cd $cosa/ && f ln -s ~/scripts/kraken2.sh .);done
+$ for cosa in $(cat list.txt);do(cd $cosa/ && qsub -V kraken2.sh);done
+
+#kraken2.sh script content;
+#kraken2  --db /tres/DB/kraken2DB/ --threads 20 --report kraken_out.report --use-names --paired *1.f*q* *2.f*q*
+
+##############################################################################SEPARATE KRAKEN2 IN PHYLUMS OR GENERA#########################
+# Extract the taxonomic subclass class 'D','P','C', etc...
+
+$ awk -F'\t' '$4~/^C$/' kraken_out.report > 1.txt
+$ cut -f6 1.txt > 2.txt
+$ cut -f3 1.txt > 3.txt
+$ paste 2.txt 3.txt > 4.txt
+$ sed "s/^ *//;s/  */    /g" < 4.txt > genus_report.txt
+
+$ for cosa in $(cat list.txt);do(cd $cosa/ && awk -F'\t' '$4~/^G$/' kraken_out.report > 1.txt);done
+$ for cosa in $(cat list.txt);do(cd $cosa/ && cut -f6 1.txt > 2.txt);done
+$ for cosa in $(cat list.txt);do(cd $cosa/ && cut -f3 1.txt > 3.txt);done
+$ for cosa in $(cat list.txt);do(cd $cosa/ && paste 2.txt 3.txt > 4.txt);done
+$ for cosa in $(cat list.txt);do(cd $cosa/ && sed "s/^ *//;s/  */    /g" < 4.txt > genus_report.txt);done
+$ for cosa in $(cat list.txt);do(cd $cosa/ && sort -k2 -nr genus_report.txt > genus.report);done
+$ for cosa in $(cat list.txt);do(cd $cosa/ && sort -k2 -nr genus_report.txt > genus.report);done
+$ for cosa in $(cat list.txt);do(cd $cosa/ && rm *.txt);done
