@@ -6,20 +6,22 @@ All analysis were done on the "FOS" and "Teopanzolco" servers of the Biotechnolo
 
 Workflow
 The analysis were performed following this workflow, which can be found in the analysis directory and its results in the out directory of this repository.
+Taxonomy
+kraken2_taxonomy.sh
 
-Pozol_Taxonomy
-taxonomy.sh
+Removing maize
+remove.sh
 
-De novo assembly
-idba.sh
-removing_maize.sh
+Assembly
+megahit.sh
+
 
 CAZyme annotation
 cazy.sh
 
 Plots
 Sockplot.R
-CAZy_heatmap.R
+Heatmap.R
 
 
 
