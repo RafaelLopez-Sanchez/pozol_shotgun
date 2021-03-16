@@ -13,4 +13,4 @@ from plotnine import *
 kegg2=pd.read_csv("/Users/Diana/OneDrive/POZOL_RAFA/2021/pozol_group_table.csv")                                                                                   
 (ggplot(kegg2, aes(x='Function', y='gene_counts', fill='Fermentation_time')) 
  + geom_col(stat='identity', position='dodge') + coord_flip() + theme_classic()
- +labs(y='Number of genes', x='Kegg functions', title='Kegg functions through pozol fermentation time'))
+ +labs(y='Number of genes', x='Categories', title='KEGG functional annotation'))
