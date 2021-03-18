@@ -6,7 +6,7 @@ The expectation is that the results of this study contribute to our understandin
 
 This work was carried out at the Biotechnology Institute of the National Autonomous University of Mexico (UNAM), in the Celular Engineer and Biocatalysis Department Laboratory 12 led by Dr. Lorenzo P. Segovia Forcella.
 
-All analysis were done on the "FOS" and "Teopanzolco" servers of the Biotechnology Insittute of UNAM.
+All analysis were done on the "FOS" and "Teopanzolco" servers of the Biotechnology Institute of UNAM.
 
 
 ![alt text](http://www.revista.unam.mx/vol.15/num8/art64/img/img3.jpg)
