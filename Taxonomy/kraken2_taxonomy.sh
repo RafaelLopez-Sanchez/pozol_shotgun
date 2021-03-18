@@ -1,6 +1,7 @@
 ######### TAXONOMIC ANNOTATION KRAKEN2#################################################################################
 # !/usr/bin/bash
 # Rafael López-Sánchez
+#March 18 2021
 # Workflow to make the taxonomy annotation with kraken2 against the NCBI nt and Refseq of Bacteria, Arquea and Viruses databases.
 
 1. Make 4 directories with the names 0hrs 9hrs 24hrs 48hrs

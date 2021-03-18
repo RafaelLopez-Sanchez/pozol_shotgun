@@ -1,5 +1,7 @@
-#####CAZYME ANNOTATION############
-
+#####CAZYME DBCAN2 ANNOTATION ON BINS############
+# !/usr/bin/bash
+# Rafael López-Sánchez
+#March 18 2021
 Original Recipe made by DBCAN2 and Diana H. Oaxaca. Modifications made by Rafael López Sánchez
 ######################################## dbCAN HMMdb release 9.0 #########################################################################################################################################################################
 # 08/04/2020
@@ -53,21 +55,21 @@ $ for cosa in $(cat list.txt);do(cd $cosa/ && cat *.only.txt > all.only.txt);don
 $ for cosa in $(cat list.txt);do(cd $cosa/ && sort all.only.txt |  uniq -c  > all.uniq.count);done
 
 
-# 1.7 
+# 1.7 Get all uniq modules.
 $ for cosa in $(cat list.txt);do(cd $cosa/ && sort all.only.txt |  uniq   > all.uniq);done
 
 
-# 1.8
+# 1.8 Get the full module count.
 $ for cosa in $(cat list.txt);do(cd $cosa/ && for s in $(cat all.uniq); do (grep -c -w $s proteins.only.txt >> proteins.full_count);done;)done
 
 
-# 1.9
+# 1.9 Get the file with the module and count.
 $ for cosa in $(cat list.txt);do(cd $cosa/ && paste all.uniq proteins.full_count > cazy_counts.txt);done
 
 
 #2. Create count matrix.
 for cosa in $(cat ../list.txt); do (ln -s /dos/rafaells/Pozol_2021/dbCAN2/$cosa/cazy_counts.txt $cosa);done
 
-#2.1 Integrate all normal matrixes in one. We do this with Alejandra's Escobar Zepeda matrix_integrator_bmk.pl script and a list with all the metagenomes.
+#2.1 Integrate all bin matrixes in one. We do this with Alejandra's Escobar Zepeda matrix_integrator_bmk.pl script and a list with all the metagenomes.
 $ ~/scripts/matrix_integrator_bmk.pl ../list.txt
 

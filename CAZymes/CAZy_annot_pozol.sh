@@ -1,6 +1,8 @@
 #####CAZYME ANNOTATION############
-
-Original Recipe made by DBCAN2 and Diana H. Oaxaca. Modifications made by Rafael López Sánchez
+# !/usr/bin/bash
+# Rafael López-Sánchez
+#March 18 2021
+Original Recipe made by DBCAN2 and Diana H. Oaxaca. Modifications made by Rafael López-Sánchez
 ######################################## dbCAN HMMdb release 9.0 #########################################################################################################################################################################
 # 08/04/2020
 # total 681 CAZyme HMMs (434 family HMMs + 3 cellulosome HMMs + 244 subfamily HMMs)
@@ -59,42 +61,34 @@ Cols in protein.out.dm.ps and proteins.out.dm.ps.stringent:
 # 7. Filter data.
 
 7.1 Cut columns 1,3 for the hmmer.out file.
-$ for cosa in $(cat list.txt);do(cd $cosa/ && cut -f1,3 proteins.out.dm.ps  | sort -n > proteins.txt );done
 $ for cosa in $(cat list.txt);do(cd $cosa/ && cut -f1,3 proteins.out.dm.ps.stringent  | sort -n > proteins.stringent.txt );done
 
 # 7.2 Remove the .hmm from the CAZy modules.
-$ for cosa in $(cat list.txt);do(cd $cosa/ && sed -i 's/\.hmm//' proteins.txt );done
 $ for cosa in $(cat list.txt);do(cd $cosa/ && sed -i 's/\.hmm//' proteins.stringent.txt );done
 
 # 7.3 Cut the first column of the proteins.txt file.
-$ for cosa in $(cat list.txt);do(cd $cosa/ && cut -f1 proteins.txt > proteins.only.txt);done
 $ for cosa in $(cat list.txt);do(cd $cosa/ && cut -f1 proteins.stringent.txt > proteins.only.stringent.txt);done
 
 # 7.4 Make the proteins.count file with uniq counts.
-$ for cosa in $(cat list.txt);do(cd $cosa/ && uniq -c proteins.only.txt > proteins.count);done
 $ for cosa in $(cat list.txt);do(cd $cosa/ && uniq -c proteins.only.stringent.txt > proteins.stringent.count);done
 
 # 7.5 Concatenate all only.txt files in all.only.txt.
-$ for cosa in $(cat list.txt);do(cd $cosa/ && cat *.only.txt > all.only.txt);done
 $ for cosa in $(cat list.txt);do(cd $cosa/ && cat *.only.stringent.txt > all.only.stringent.txt);done
 
 # 7.6 Make a for loop to sort all.only.txt files and get the uniq counts.
-$ for cosa in $(cat list.txt);do(cd $cosa/ && sort all.only.txt |  uniq -c  > all.uniq.count);done
 $ for cosa in $(cat list.txt);do(cd $cosa/ && sort all.only.stringent.txt |  uniq -c  > all.uniq.stringent.count);done
 
-# 7.7
-$ for cosa in $(cat list.txt);do(cd $cosa/ && sort all.only.txt |  uniq   > all.uniq);done
+# 7.7 Get all uniq modules.
 $ for cosa in $(cat list.txt);do(cd $cosa/ && sort all.only.stringent.txt |  uniq   > all.stringent.uniq);done
 
-# 7.8
-$ for cosa in $(cat list.txt);do(cd $cosa/ && for s in $(cat all.uniq); do (grep -c -w $s proteins.only.txt >> proteins.full_count);done;)done
+# 7.8 Get the full module count.
 $ for cosa in $(cat list.txt);do(cd $cosa/ && for s in $(cat all.stringent.uniq); do (grep -c -w $s proteins.only.stringent.txt >> proteins.stringent.full_count);done;)done
 
-# 7.9
+# 7.9 Get the file with the module and count.
 $ for cosa in $(cat list.txt);do(cd $cosa/ && paste all.uniq proteins.full_count > cazy_counts.txt);done
 $ for cosa in $(cat list.txt);do(cd $cosa/ && paste all.stringent.uniq proteins.stringent.full_count > cazy_counts.stringent.txt);done
 
 #8. Create count matrix.
 for cosa in $(cat ../list.txt); do (ln -s /dos/rafaells/Pozol_2021/cazy_annot/$cosa/cazy_counts.stringent.txt $cosa);done
-#8.4 Integrate all normal matrixes in one. We do this with Alejandra's Escobar Zepeda matrix_integrator_bmk.pl script and a list with all the metagenomes.
+#8.4 Integrate all normal matrixes in one. We do this with Alejandra's Escobar Zepeda matrix_integrator_bmk.pl count2percent.pl scripts  and a list with all the metagenomes.
 $ ~/scripts/matrix_integrator_bmk.pl list.txt
