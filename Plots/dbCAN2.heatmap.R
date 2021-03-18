@@ -26,5 +26,5 @@ col_breaks = c(seq(-0,1.09, length=100), seq(1.1,2.09,length=100), seq(2.1,8,len
 png("dbCAN2_heatmap.png", width=1600, height=1600, res = 300)
 heatmap.2(as.matrix(cazymes), col = my_pallet, RowSideColors = var1,  main = "CAZymes", density.info = 'none', trace = 'none', dendrogram = 'col', Rowv = "NA", cexCol = 0.8, cexRow = 0.55, margins = c(5,5), tracecol = "both", breaks = col_breaks, colsep=1:nrow(cazymes),rowsep=1:nrow(cazymes),sepcolor = "white",offsetRow=-0.3, offsetCol=-0.3, key.title=TRUE, key.xlab="Number of CAZy families")
 #5.Add legend to rowSide
-legend("topleft", xpd = TRUE, legend = c("Starch","PCW","Sucrose", "Fructan"), col= c("#e41a1c", "#377eb8","#4daf4a", "#984ea3"), lty = 2,lwd = 4, cex = 0.37)
+legend("bottomleft", xpd = TRUE, legend = c("Starch","PCW","Sucrose", "Fructan"), col= c("#e41a1c", "#377eb8","#4daf4a", "#984ea3"), lty = 2,lwd = 4, cex = 0.37)
 dev.off()
