@@ -46,7 +46,7 @@ heatmap.2(as.matrix(cazymes),
 	offsetCol=-0.2, 
 	key.title=TRUE, 
 	key.xlab="CAZy abundance(%)",
-	key.par = list(cex=0.6))
+	key.par = list(cex=0.4))
 ##Add legend to rowSide
 legend("bottomright", xpd = TRUE,
 	title="SUBSTRATE", 

@@ -46,6 +46,7 @@ ylabel= paste ("PCo2 (", ylabel, ")")
 H_CLustering=hclust(vegdist(beta,"bray"))
 
 # Plotting the figure
+tiff("PCOa_beta_diversity.tiff",  units="cm", width=8.5, height=10.5, res=300)
 # Adding the axes, grid, and other aestethics
 plot(beta_bray, family="Arial", type="n", xlab="", ylab="",ylim=c(-1,1), xlim=c(-1, 1), cex.axis=0.6, tck = -0.01, mgp = c(3, 0.2, 0), 
      xaxp  = c(-4, 4, 8), panel.first=grid(col = "white",lty=0))
@@ -58,4 +59,5 @@ par(lty=2)
 # Adding the hierarchical clustering
 ordicluster(beta_bray, H_CLustering,  display = "sites", col = "grey", lwd = 0.5)
 
-# Adding the samples at the end to be on top of all the other plotted elementstext(beta_bray,cex= 1,pch=21, col=c("green", "red", "blue", "black"), bg= colvec, lwd = 0.5)
+# Adding the samples at the end to be on top of all the other plotted elementstext(beta_bray,cex= 1,pch=21, col=c("green", "red", "blue", "black"), bg= colvec, lwd = 0.5)
+dev.off()

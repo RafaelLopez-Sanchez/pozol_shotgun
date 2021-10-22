@@ -23,8 +23,35 @@ var1 <- c(rep("#e41a1c", 14),rep("#377eb8", 14),rep("#4daf4a", 2),rep("#984ea3",
 #3. Define data characteristics
 col_breaks = c(seq(-0,1.09, length=100), seq(1.1,2.09,length=100), seq(2.1,8,length=100))
 #4. Draw heatmap
-png("dbCAN2_heatmap.png", width=1600, height=1600, res = 300)
-heatmap.2(as.matrix(cazymes), col = my_pallet, RowSideColors = var1,  main = "CAZymes", density.info = 'none', trace = 'none', dendrogram = 'col', Rowv = "NA", cexCol = 0.8, cexRow = 0.55, margins = c(5,5), tracecol = "both", breaks = col_breaks, colsep=1:nrow(cazymes),rowsep=1:nrow(cazymes),sepcolor = "white", sepwidth=c(0.01, 0.01),offsetRow=-0.3, offsetCol=-0.3, key.title=TRUE, key.xlab="Number of CAZy families")
-#5.Add legend to rowSide
-legend("bottomleft", xpd = TRUE, legend = c("Starch","PCW","Sucrose", "Fructan"), col= c("#e41a1c", "#377eb8","#4daf4a", "#984ea3"), lty = 2,lwd = 4, cex = 0.37)
+tiff("dbCAN2_heatmap.tiff",  units="cm", width=8.5, height=10.5, res=300)
+heatmap.2(as.matrix(cazymes), 
+	col = my_pallet, 
+	RowSideColors = var1,  
+	cex.main = 1.5,	
+	main = "CAZymes", 
+	density.info = 'none', 
+	trace = 'none', 
+	dendrogram = 'col', 
+	Rowv = "NA", 
+	cexCol = 0.8, 
+	cexRow = 0.55, 
+	margins = c(5,8), 
+	tracecol = "both", 
+	breaks =col_breaks,
+	colsep=1:nrow(cazymes),
+	rowsep=1:nrow(cazymes),
+	sepcolor = "white", 
+	sepwidth=c(0.01, 0.01),
+	offsetRow=-0.3,
+	offsetCol=-0.3, 
+	key.title=TRUE, 
+	key.xlab="Number of CAZy families",
+	key.par = list(cex=0.4))
+##Add legend to rowSide
+legend("bottomright", xpd = TRUE,
+	title="SUBSTRATE", 
+	text.font =2 , 
+	legend = c("Starch","PCW","Sucrose", "Fructan"),
+	col= c("#fbb4ae", "#b3cde3","#ccebc5","#decbe4"), 
+	lty = 1,lwd = 4, cex = 0.30)
 dev.off()
