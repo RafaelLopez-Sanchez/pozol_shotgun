@@ -1,0 +1,4 @@
+Bin	metabat2.22	maxbin.012	maxbin.001	maxbin.030	metabat2.7	maxbin.020	maxbin.024	maxbin.018	maxbin.007	maxbin.013	metabat2.6
+Bacteriocins	0	1	0	0	0	0	0	0	1	0	0
+Lanthipeptides class I	1	0	0	0	0	0	0	0	0	0	0
+Lanthipeptides class II	1	1	0	0	0	0	0	0	0	0	0

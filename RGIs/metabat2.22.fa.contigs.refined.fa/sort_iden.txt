@@ -1,0 +1,6 @@
+Contig	Cut_Off	Best_Identities	Drug Class	Resistance Mechanism	AMR Gene Family	Percentage Length of Reference Sequence
+megahit_15884_23 	Loose	80.77	rifamycin antibiotic	antibiotic target alteration; antibiotic target replacement	rifamycin-resistant beta-subunit of RNA polymerase (rpoB)	100.25
+megahit_15884_29 	Loose	76.4	elfamycin antibiotic	antibiotic target alteration	elfamycin resistant EF-Tu	100.25
+megahit_125259_18 	Loose	69.48	fluoroquinolone antibiotic	antibiotic target alteration	fluoroquinolone resistant gyrB	100.16
+megahit_56663_3 	Loose	64.88	isoniazid	antibiotic target alteration	isoniazid resistant katG	101.76
+megahit_27817_6 	Loose	60.23	Para-aminosalicylic acid	antibiotic target alteration	aminosalicylate resistant thymidylate synthase	100.38

@@ -1,0 +1,12 @@
+Bin	Taxonomy
+metabat2.7	Anoxybacillus
+maxbin.012	Enterococcus italicus
+maxbin.001	Exiguobacterium sp902362975
+maxbin.030	Lactobacillus delbrueckii
+metabat2.6	Lactococcus garvieae
+maxbin.020	Leuconostoc sp900554745
+maxbin.024	Limosilactobacillus fermentum
+maxbin.018	Rothia
+maxbin.007	Streptococcus ferus
+maxbin.013	Streptococcus infantarius
+metabat2.22	Weissella confusa

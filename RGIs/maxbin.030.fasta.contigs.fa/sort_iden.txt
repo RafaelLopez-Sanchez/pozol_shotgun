@@ -1,0 +1,5 @@
+Contig	Cut_Off	Best_Identities	Drug Class	Resistance Mechanism	AMR Gene Family	Percentage Length of Reference Sequence
+megahit_58024_8 	Loose	71.87	elfamycin antibiotic	antibiotic target alteration	elfamycin resistant EF-Tu	100.51
+megahit_34132_54 	Loose	70.04	fusidic acid	antibiotic target alteration	antibiotic resistant fusA	100.14
+megahit_11285_6 	Loose	62.16	macrolide antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	100.25
+

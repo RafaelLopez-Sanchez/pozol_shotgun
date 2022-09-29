@@ -1,0 +1,170 @@
+Contig	Cut_Off	Best_Identities	Drug Class	Resistance Mechanism	AMR Gene Family	Percentage Length of Reference Sequence
+megahit_4546_7 	Loose	25.68	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; Van ligase	330.68
+megahit_5432_2 	Loose	38.12	macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; tetracycline antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	100.00
+megahit_5432_8 	Loose	31.51	glycopeptide antibiotic	antibiotic target alteration	vanS; glycopeptide resistance gene cluster	97.66
+megahit_5432_9 	Loose	49.33	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; vanR	99.13
+megahit_8137_2 	Loose	30.13	lincosamide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	94.13
+megahit_8137_9 	Loose	42.76	tetracycline antibiotic	antibiotic target protection	tetracycline-resistant ribosomal protection protein	92.61
+megahit_8137_16 	Loose	26.96	carbapenem; cephalosporin; cephamycin; penam; penem	antibiotic inactivation	KHM beta-lactamase	231.95
+megahit_8137_25 	Loose	31.8	aminoglycoside antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	151.94
+megahit_9106_3 	Loose	23.33	aminoglycoside antibiotic	antibiotic inactivation	APH(2''); AAC(6')	33.61
+megahit_9106_11 	Loose	25.87	aminoglycoside antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	181.78
+megahit_10189_1 	Loose	29.17	mupirocin	antibiotic target alteration	antibiotic-resistant isoleucyl-tRNA synthetase (ileS)	64.84
+megahit_10189_5 	Loose	34.65	macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic	antibiotic target alteration	Erm 23S ribosomal RNA methyltransferase	104.93
+megahit_10189_17 	Loose	38.99	peptide antibiotic	antibiotic target alteration	undecaprenyl pyrophosphate related proteins	103.66
+megahit_10189_21 	Loose	23.49	fluoroquinolone antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	118.81
+megahit_12354_12 	Loose	33.06	glycopeptide antibiotic	antibiotic target alteration	Van ligase	108.83
+megahit_12354_18 	Loose	34.3	macrolide antibiotic; aminoglycoside antibiotic; oxazolidinone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	106.88
+megahit_12354_19 	Loose	34.72	oxazolidinone antibiotic; phenicol antibiotic	antibiotic target protection	Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins	99.54
+megahit_12407_9 	Loose	37.67	macrolide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	54.19
+megahit_12407_50 	Loose	23.67	peptide antibiotic	antibiotic target alteration	pmr phosphoethanolamine transferase	49.85
+megahit_12746_6 	Loose	35.29	peptide antibiotic	antibiotic target alteration	undecaprenyl pyrophosphate related proteins	102.46
+megahit_12746_8 	Loose	29.98	lincosamide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	97.69
+megahit_12746_9 	Loose	37.23	macrolide antibiotic; streptogramin antibiotic	antibiotic target protection	msr-type ABC-F protein	195.27
+megahit_12746_15 	Loose	34.47	glycopeptide antibiotic	antibiotic target alteration	vanH; glycopeptide resistance gene cluster	102.80
+megahit_12746_21 	Loose	30.85	glycylcycline; tetracycline antibiotic	antibiotic efflux	multidrug and toxic compound extrusion (MATE) transporter	110.79
+megahit_13020_4 	Loose	38.61	macrolide antibiotic; aminoglycoside antibiotic; oxazolidinone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	96.25
+megahit_13020_8 	Loose	25.34	bicyclomycin	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	111.44
+megahit_13020_13 	Loose	38.96	macrolide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	37.73
+megahit_13020_14 	Loose	28.57	fluoroquinolone antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	91.39
+megahit_13020_19 	Loose	23.03	fluoroquinolone antibiotic; disinfecting agents and antiseptics	antibiotic efflux	multidrug and toxic compound extrusion (MATE) transporter	104.31
+megahit_13020_20 	Loose	27.72	oxazolidinone antibiotic; phenicol antibiotic	antibiotic target protection	Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins	82.90
+megahit_15774_3 	Loose	31.71	tetracycline antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	69.68
+megahit_15870_3 	Loose	35.75	fusidic acid	antibiotic target protection	Target protecting FusB-type protein conferring resistance to Fusidic acid	100.94
+megahit_18626_4 	Loose	28.35	peptide antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	57.02
+megahit_18801_3 	Loose	22.64	fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics	antibiotic efflux; reduced permeability to antibiotic	resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams	217.32
+megahit_18801_7 	Loose	32.6	aminoglycoside antibiotic; aminocoumarin antibiotic	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump	53.53
+megahit_19735_2 	Loose	29.91	macrolide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	102.33
+megahit_19735_3 	Loose	36.62	macrolide antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump	101.42
+megahit_19941_6 	Loose	30.52	nitroimidazole antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	102.58
+megahit_20840_6 	Loose	27.79	aminoglycoside antibiotic; aminocoumarin antibiotic	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump	101.71
+megahit_20840_7 	Loose	38.46	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; vanR	106.49
+megahit_21388_6 	Loose	30.89	lincosamide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	96.44
+megahit_21945_24 	Loose	26.48	fluoroquinolone antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	91.80
+megahit_23728_2 	Loose	38.74	tetracycline antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	102.42
+megahit_23728_3 	Loose	33.62	tetracycline antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	100.52
+megahit_23728_7 	Loose	26.86	aminoglycoside antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	123.26
+megahit_23728_8 	Loose	32.77	macrolide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	51.55
+megahit_24097_3 	Loose	27.8	aminocoumarin antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	94.96
+megahit_24097_4 	Loose	25.52	nitroimidazole antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	99.14
+megahit_24097_8 	Loose	25.0	glycopeptide antibiotic	antibiotic target alteration	vanH; glycopeptide resistance gene cluster	97.21
+megahit_25468_2 	Loose	35.4	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; vanR	105.45
+megahit_25759_4 	Loose	32.91	fluoroquinolone antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	86.36
+megahit_25759_21 	Loose	26.47	cephalosporin; penam	antibiotic inactivation	ampC-type beta-lactamase	79.26
+megahit_25759_37 	Loose	29.91	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; vanT	52.11
+megahit_25759_39 	Loose	49.02	streptogramin antibiotic; streptogramin A antibiotic	antibiotic inactivation	streptogramin vat acetyltransferase	111.79
+megahit_26853_4 	Loose	28.95	aminoglycoside antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	122.87
+megahit_26853_5 	Loose	31.17	macrolide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	56.99
+megahit_26853_22 	Loose	29.34	lincosamide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	94.76
+megahit_26853_27 	Loose	37.24	macrolide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	37.89
+megahit_30294_4 	Loose	54.3	fluoroquinolone antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	101.06
+megahit_30294_5 	Loose	58.72	lincosamide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	89.46
+megahit_30456_8 	Loose	22.34	fluoroquinolone antibiotic; tetracycline antibiotic	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump	86.65
+megahit_30456_14 	Loose	46.0	aminoglycoside antibiotic; tetracycline antibiotic; phenicol antibiotic	antibiotic efflux	small multidrug resistance (SMR) antibiotic efflux pump	101.90
+megahit_30456_15 	Loose	52.43	aminoglycoside antibiotic; tetracycline antibiotic; phenicol antibiotic	antibiotic efflux	small multidrug resistance (SMR) antibiotic efflux pump	96.43
+megahit_30456_16 	Loose	40.93	macrolide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	35.25
+megahit_31306_4 	Loose	42.65	macrolide antibiotic	antibiotic target protection	Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins	145.87
+megahit_31306_11 	Loose	30.09	nitroimidazole antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	101.03
+megahit_31306_14 	Loose	36.21	fluoroquinolone antibiotic; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump	88.18
+megahit_31306_15 	Loose	29.3	nitroimidazole antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	37.11
+megahit_31306_17 	Loose	36.23	macrolide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	38.20
+megahit_31306_23 	Loose	36.5	peptide antibiotic	antibiotic target alteration	defensin resistant mprF	53.06
+megahit_32004_2 	Loose	33.78	fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump	100.00
+megahit_32004_25 	Loose	69.97	elfamycin antibiotic	antibiotic target alteration	elfamycin resistant EF-Tu	100.25
+megahit_32934_3 	Loose	26.23	peptide antibiotic	antibiotic target alteration	pmr phosphoethanolamine transferase	136.96
+megahit_35341_2 	Loose	35.11	glycopeptide antibiotic	antibiotic target alteration	vanH; glycopeptide resistance gene cluster	103.42
+megahit_36513_2 	Loose	22.55	bicyclomycin	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	100.75
+megahit_36513_9 	Loose	31.07	tetracycline antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	100.25
+megahit_38476_9 	Loose	48.29	fosfomycin	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	100.49
+megahit_38830_5 	Loose	34.26	macrolide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	73.54
+megahit_38830_7 	Loose	43.55	macrolide antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump	99.06
+megahit_38830_9 	Loose	25.32	nucleoside antibiotic	antibiotic inactivation	streptothricin acetyltransferase (SAT)	93.48
+megahit_39698_5 	Loose	35.94	macrolide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	34.32
+megahit_40491_3 	Loose	32.53	glycopeptide antibiotic	antibiotic target alteration	vanX; glycopeptide resistance gene cluster	108.52
+megahit_40491_7 	Loose	25.21	peptide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	77.12
+megahit_40491_10 	Loose	43.44	macrolide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	34.78
+megahit_40491_11 	Loose	29.93	macrolide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	61.80
+megahit_41291_5 	Loose	30.29	aminoglycoside antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	119.38
+megahit_42872_5 	Loose	28.27	peptide antibiotic	antibiotic target alteration	pmr phosphoethanolamine transferase	48.34
+megahit_42872_16 	Loose	25.51	fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics	antibiotic efflux; reduced permeability to antibiotic	resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams	213.39
+megahit_46144_6 	Loose	28.57	tetracycline antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	67.64
+megahit_49108_7 	Loose	23.91	mupirocin	antibiotic target alteration	antibiotic-resistant isoleucyl-tRNA synthetase (ileS)	85.87
+megahit_50348_12 	Loose	33.85	bicyclomycin	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	66.92
+megahit_52360_3 	Loose	30.23	elfamycin antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	92.13
+megahit_53836_16 	Loose	24.64	fluoroquinolone antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	88.67
+megahit_56114_2 	Loose	26.4	carbapenem; cephalosporin; cephamycin; penam	antibiotic inactivation	NmcA beta-lactamase	100.34
+megahit_57837_4 	Loose	25.71	fluoroquinolone antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	106.19
+megahit_57837_9 	Loose	36.6	macrolide antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	100.64
+megahit_59511_3 	Loose	53.28	fluoroquinolone antibiotic; disinfecting agents and antiseptics	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	104.57
+megahit_59511_4 	Loose	29.91	fluoroquinolone antibiotic; disinfecting agents and antiseptics	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	108.43
+megahit_59701_1 	Loose	29.81	oxazolidinone antibiotic; phenicol antibiotic	antibiotic target protection	Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins	35.27
+megahit_60108_5 	Loose	41.73	fosfomycin	antibiotic target alteration	antibiotic-resistant murA transferase	104.53
+megahit_60108_7 	Loose	31.47	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; vanT	69.38
+megahit_60929_8 	Loose	31.35	fluoroquinolone antibiotic; disinfecting agents and antiseptics	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	108.50
+megahit_61647_1 	Loose	35.37	tetracycline antibiotic	antibiotic target protection	tetracycline-resistant ribosomal protection protein	63.34
+megahit_61647_7 	Loose	28.73	carbapenem; cephalosporin; cephamycin; penam	antibiotic inactivation	ACT beta-lactamase	96.85
+megahit_61647_8 	Loose	24.34	fluoroquinolone antibiotic; aminoglycoside antibiotic	antibiotic inactivation	AAC(6')-Ib-cr	93.48
+megahit_61647_10 	Loose	27.49	macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump	138.22
+megahit_61647_16 	Loose	36.84	nucleoside antibiotic	antibiotic inactivation	streptothricin acetyltransferase (SAT)	76.11
+megahit_61743_7 	Loose	42.0	rifamycin antibiotic	antibiotic inactivation	rifampin phosphotransferase	65.05
+megahit_61743_12 	Loose	28.95	fluoroquinolone antibiotic; aminoglycoside antibiotic; penam; tetracycline antibiotic; disinfecting agents and antiseptics	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	104.42
+megahit_61751_11 	Loose	25.81	tetracycline antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	87.46
+megahit_65857_2 	Loose	28.69	fusidic acid	antibiotic target alteration	antibiotic resistant fusA	75.47
+megahit_66134_14 	Loose	43.17	pleuromutilin antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	97.07
+megahit_66134_15 	Loose	32.89	diaminopyrimidine antibiotic	antibiotic target replacement	trimethoprim resistant dihydrofolate reductase dfr	100.61
+megahit_68308_25 	Loose	34.88	glycopeptide antibiotic	antibiotic target alteration	vanY; glycopeptide resistance gene cluster	93.55
+megahit_68308_28 	Loose	28.95	monobactam; cephalosporin; penam; penem	antibiotic inactivation	TEM beta-lactamase	149.82
+megahit_68308_32 	Loose	69.0	rifamycin antibiotic	antibiotic target alteration; antibiotic target replacement	rifamycin-resistant beta-subunit of RNA polymerase (rpoB)	101.44
+megahit_68715_3 	Loose	40.27	macrolide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	38.04
+megahit_68715_4 	Loose	48.04	aminoglycoside antibiotic; tetracycline antibiotic; phenicol antibiotic	antibiotic efflux	small multidrug resistance (SMR) antibiotic efflux pump	99.05
+megahit_68715_5 	Loose	48.98	aminoglycoside antibiotic; tetracycline antibiotic; phenicol antibiotic	antibiotic efflux	small multidrug resistance (SMR) antibiotic efflux pump	95.54
+megahit_69754_22 	Loose	38.31	tetracycline antibiotic	antibiotic target protection	tetracycline-resistant ribosomal protection protein	96.40
+megahit_69754_26 	Loose	36.01	fluoroquinolone antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	104.08
+megahit_69754_27 	Loose	42.18	macrolide antibiotic; fluoroquinolone antibiotic; rifamycin antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	71.13
+megahit_69754_28 	Loose	33.14	macrolide antibiotic; fluoroquinolone antibiotic; rifamycin antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	33.22
+megahit_69898_3 	Loose	36.84	streptogramin antibiotic; streptogramin A antibiotic	antibiotic inactivation	streptogramin vat acetyltransferase	96.23
+megahit_69898_5 	Loose	32.16	aminoglycoside antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	134.88
+megahit_72306_4 	Loose	30.32	phenicol antibiotic	antibiotic inactivation	chloramphenicol phosphotransferase	88.30
+megahit_72306_11 	Loose	30.25	nitroimidazole antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	49.31
+megahit_72306_12 	Loose	34.73	fluoroquinolone antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	49.65
+megahit_72306_17 	Loose	30.85	macrolide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	37.89
+megahit_72306_18 	Loose	26.03	carbapenem; cephalosporin; penam	antibiotic inactivation	GES beta-lactamase	104.18
+megahit_72306_27 	Loose	25.5	peptide antibiotic	antibiotic target alteration	non-erm 23S ribosomal RNA methyltransferase (A1067)	110.37
+megahit_74207_2 	Loose	33.48	macrolide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	83.38
+megahit_75508_12 	Loose	34.02	aminoglycoside antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	144.19
+megahit_75508_14 	Loose	69.05	fusidic acid	antibiotic target alteration	antibiotic resistant fusA	102.02
+megahit_76796_4 	Loose	35.61	macrolide antibiotic; aminoglycoside antibiotic; oxazolidinone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	105.83
+megahit_77881_18 	Loose	29.4	mupirocin	antibiotic target alteration	antibiotic-resistant isoleucyl-tRNA synthetase (ileS)	89.93
+megahit_77881_29 	Loose	33.15	cephalosporin; cephamycin; penam	antibiotic target alteration	Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics	97.33
+megahit_82362_8 	Loose	29.82	fluoroquinolone antibiotic; disinfecting agents and antiseptics	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	101.11
+megahit_82362_9 	Loose	46.22	macrolide antibiotic; penam	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump	103.51
+megahit_82362_10 	Loose	22.55	macrolide antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	102.27
+megahit_86788_5 	Loose	23.64	mupirocin	antibiotic target alteration	antibiotic-resistant isoleucyl-tRNA synthetase (ileS)	78.52
+megahit_88372_3 	Loose	33.03	peptide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	168.63
+megahit_88911_4 	Loose	34.56	macrolide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	31.83
+megahit_91959_2 	Loose	28.63	fluoroquinolone antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	42.86
+megahit_91959_3 	Loose	31.02	aminoglycoside antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	106.20
+megahit_92154_1 	Loose	45.09	macrolide antibiotic; penam	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump	102.19
+megahit_92154_2 	Loose	33.62	fluoroquinolone antibiotic; disinfecting agents and antiseptics	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	139.91
+megahit_92154_5 	Loose	31.68	cephalosporin; penam	antibiotic inactivation	subclass B3 LRA beta-lactamase	87.21
+megahit_96494_5 	Loose	24.73	macrolide antibiotic; fluoroquinolone antibiotic; penam	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump	98.54
+megahit_110703_1 	Loose	28.35	peptide antibiotic	antibiotic target alteration	defensin resistant mprF	47.28
+megahit_123601_10 	Loose	35.82	macrolide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	32.92
+megahit_123601_24 	Loose	31.19	macrolide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	39.75
+megahit_123778_3 	Loose	23.98	fluoroquinolone antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	97.24
+megahit_125198_9 	Loose	28.11	peptide antibiotic	antibiotic target alteration	non-erm 23S ribosomal RNA methyltransferase (A1067)	94.81
+megahit_125198_10 	Loose	26.89	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; vanK	90.13
+megahit_5432_15 	Loose	30.11	aminoglycoside antibiotic	antibiotic target alteration	antibiotic resistant gidB	106.70
+megahit_8137_28 	Loose	40.78	fluoroquinolone antibiotic	antibiotic target alteration	fluoroquinolone resistant gyrA	101.36
+megahit_8137_29 	Loose	54.96	fluoroquinolone antibiotic	antibiotic target alteration	fluoroquinolone resistant gyrB	105.49
+megahit_19405_19 	Loose	33.58	cephalosporin; cephamycin; penam	antibiotic target alteration	Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics	99.56
+megahit_25759_10 	Loose	34.95	isoniazid	antibiotic target alteration	antibiotic resistant kasA	98.80
+megahit_30456_7 	Loose	23.18	disinfecting agents and antiseptics	antibiotic target alteration	antibiotic resistant fabG	100.00
+megahit_15774_6 	Loose	28.65	fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump	88.50
+megahit_15870_2 	Loose	33.67	fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump	88.50
+megahit_21388_10 	Loose	27.45	fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics	antibiotic target alteration; antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump	93.02
+megahit_45775_11 	Loose	24.44	fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump	92.63
+megahit_53836_13 	Loose	28.99	fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump	89.38
+megahit_61647_19 	Loose	26.79	fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump	93.51
+megahit_68308_37 	Loose	27.12	fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics	antibiotic target alteration; antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump	34.42
+megahit_104620_8 	Loose	31.66	fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump	98.82

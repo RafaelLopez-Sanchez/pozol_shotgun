@@ -1,0 +1,4 @@
+Contig	Cut_Off	Best_Identities	Drug Class	Resistance Mechanism	AMR Gene Family	Percentage Length of Reference Sequence
+megahit_32004_25 	Loose	69.97	elfamycin antibiotic	antibiotic target alteration	elfamycin resistant EF-Tu	100.25
+megahit_75508_14 	Loose	69.05	fusidic acid	antibiotic target alteration	antibiotic resistant fusA	102.02
+megahit_68308_32 	Loose	69.0	rifamycin antibiotic	antibiotic target alteration; antibiotic target replacement	rifamycin-resistant beta-subunit of RNA polymerase (rpoB)	101.44

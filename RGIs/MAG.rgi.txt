@@ -1,0 +1,14 @@
+Bin	metabat2.7	maxbin.012	maxbin.001	maxbin.030	metabat2.6	maxbin.020	maxbin.024	maxbin.018	maxbin.007	maxbin.013	metabat2.22
+elfamycin	1	2	1	1	1	1	0	0	0	0	1
+fosfomycin	0	0	1	0	0	0	0	0	0	0	0
+fluoroquinolone	0	3	1	0	0	0	0	0	3	1	1
+macrolide	0	2	0	1	0	0	0	0	1	0	0
+peptide	0	0	0	0	0	0	0	0	1	0	0
+rifamycin	0	3	0	0	1	1	1	0	1	1	1
+fusidic acid	1	1	0	1	1	1	0	0	0	0	0
+disinfecting agents and antiseptics	1	1	0	0	0	0	0	0	0	0	0
+cephalosporin	0	0	0	0	0	0	0	0	0	1	0
+streptogramin	1	0	0	0	0	0	0	0	1	0	0
+lincosamide	1	0	0	0	0	0	0	0	0	0	0
+isoniazid	0	0	0	0	0	0	0	0	0	0	1
+Para-aminosalicylic acid	0	0	0	0	0	0	0	0	0	0	1

@@ -1,0 +1,6 @@
+Contig	Cut_Off	Best_Identities	Drug Class	Resistance Mechanism	AMR Gene Family	Percentage Length of Reference Sequence
+megahit_133164_6	Strict	94.77	lincosamide antibiotic; streptogramin antibiotic; pleuromutilin antibiotic	antibiotic target protection	lsa-type ABC-F protein	100.00
+megahit_52543_7 	Loose	77.69	disinfecting agents and antiseptics	antibiotic efflux	multidrug and toxic compound extrusion (MATE) transporter	98.73
+megahit_128338_4 	Loose	73.91	fusidic acid	antibiotic target alteration	antibiotic resistant fusA	100.43
+megahit_104079_14 	Loose	72.26	elfamycin antibiotic	antibiotic target alteration	elfamycin resistant EF-Tu	100.25
+megahit_59523_11 	Loose	70.44	lincosamide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	104.97
