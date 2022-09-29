@@ -21,11 +21,10 @@ The analysis were performed following this workflow, can be found in the followi
 - Assembly and annotation
 - CAZymes
 - GhostKoala
-
+- Secondary Metabolites
 - Plots
-
+- RGIs
 - SqueezeMeta
-
 - Taxonomy
 
 
