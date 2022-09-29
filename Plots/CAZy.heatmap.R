@@ -22,16 +22,16 @@ cazymes <- read.table('cazy_abund.txt', header=TRUE, row.names=1 ,sep ="\t")
 
 #3. Define color palette and row side colors palette for the 3 categories.
 my_pallet <- colorRampPalette(c('blue','red'))(n = 299)
-var1 <- c(rep("#fbb4ae", 14),rep("#b3cde3", 38),rep("#ccebc5", 2), rep("#decbe4", 2))
+var1 <- c(rep("#fbb4ae", 9),rep("#b3cde3", 12),rep("#ccebc5", 2), rep("#decbe4", 1))
 
 #4. Define data characteristics
 col_breaks = c(0:2, seq(from = 40, to = max(cazymes) + 10, by = 10))
 
 #5. Draw heatmap
 png("CAZy_heatmap.png",  units="cm", width=20.5, height=20.5, res=300)
-heatmap.2(as.matrix(new_cazymes), 
+heatmap.2(as.matrix(cazymes), 
 	col = viridis::viridis_pal(), 
-	#RowSideColors = var1,  
+	RowSideColors = var1,  
 	cex.main = 2.5,	
 	main = "CAZymes", 
 	density.info = 'none', 
