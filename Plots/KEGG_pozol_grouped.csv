@@ -1,0 +1,93 @@
+Function,Percentage,Fermentation_time
+Carbohydrate metabolism,11.86133927,h-0
+Carbohydrate metabolism,11.18582443,h-9
+Carbohydrate metabolism,12.51743869,h-24
+Carbohydrate metabolism,12.55551348,h-48
+Energy metabolism,3.577892246,h-0
+Energy metabolism,3.208778693,h-9
+Energy metabolism,3.285549647,h-24
+Energy metabolism,3.349743519,h-48
+Lipid metabolism,1.990811639,h-0
+Lipid metabolism,2.061065358,h-9
+Lipid metabolism,2.06231424,h-24
+Lipid metabolism,2.423658209,h-48
+Nucleotide metabolism,4.594180704,h-0
+Nucleotide metabolism,4.181268617,h-9
+Nucleotide metabolism,4.492610041,h-24
+Nucleotide metabolism,4.781905188,h-48
+Amino acid metabolism,6.278713629,h-0
+Amino acid metabolism,6.334326266,h-9
+Amino acid metabolism,6.205139611,h-24
+Amino acid metabolism,6.31390505,h-48
+Metabolism of other amino acids,1.211193095,h-0
+Metabolism of other amino acids,1.130190994,h-9
+Metabolism of other amino acids,1.158535353,h-24
+Metabolism of other amino acids,1.077563948,h-48
+Glycan biosynthesis and metabolism,1.225114855,h-0
+Glycan biosynthesis and metabolism,1.666812686,h-9
+Glycan biosynthesis and metabolism,1.623566995,h-24
+Glycan biosynthesis and metabolism,1.456260543,h-48
+Metabolism of cofactors and vitamins,5.457329806,h-0
+Metabolism of cofactors and vitamins,4.498861048,h-9
+Metabolism of cofactors and vitamins,4.502719424,h-24
+Metabolism of cofactors and vitamins,3.821392915,h-48
+Metabolism of terpenoids and polyketides,0.696087986,h-0
+Metabolism of terpenoids and polyketides,0.71841598,h-9
+Metabolism of terpenoids and polyketides,0.701591217,h-24
+Metabolism of terpenoids and polyketides,0.716080835,h-48
+Biosynthesis of other secondary metabolites,0.111374078,h-0
+Biosynthesis of other secondary metabolites,0.116085509,h-9
+Biosynthesis of other secondary metabolites,0.068743808,h-24
+Biosynthesis of other secondary metabolites,0.079182015,h-48
+Xenobiotics biodegradation and metabolism,0.208826396,h-0
+Xenobiotics biodegradation and metabolism,0.405204135,h-9
+Xenobiotics biodegradation and metabolism,0.380112821,h-24
+Xenobiotics biodegradation and metabolism,0.413123558,h-48
+Genetic information processing,12.44605318,h-0
+Genetic information processing,9.470825302,h-9
+Genetic information processing,10.14982106,h-24
+Genetic information processing,11.92894275,h-48
+Environmental information processing,6.765975219,h-0
+Environmental information processing,9.775275977,h-9
+Environmental information processing,8.94276067,h-24
+Environmental information processing,7.873446483,h-48
+Cellular processes,2.8678825,h-0
+Cellular processes,2.886805677,h-9
+Cellular processes,2.499039609,h-24
+Cellular processes,1.793644783,h-48
+Organismal systems,0.431574551,h-0
+Organismal systems,0.25845453,h-9
+Organismal systems,0.297215876,h-24
+Organismal systems,0.347712328,h-48
+Human diseases,0.45941807,h-0
+Human diseases,0.571666375,h-9
+Human diseases,0.53984108,h-24
+Human diseases,0.254759528,h-48
+Protein families: metabolism,2.756508423,h-0
+Protein families: metabolism,2.744436657,h-9
+Protein families: metabolism,2.557674033,h-24
+Protein families: metabolism,2.895307605,h-48
+Protein families: genetic information processing,12.79409717,h-0
+Protein families: genetic information processing,12.60951463,h-9
+Protein families: genetic information processing,12.51743869,h-24
+Protein families: genetic information processing,12.28354047,h-48
+Protein families: signaling and cellular processes,9.216204928,h-0
+Protein families: signaling and cellular processes,11.45742071,h-9
+Protein families: signaling and cellular processes,10.91611234,h-24
+Protein families: signaling and cellular processes,10.42792715,h-48
+Unclassified: metabolism,4.900459418,h-0
+Unclassified: metabolism,5.42754512,h-9
+Unclassified: metabolism,5.262945066,h-24
+Unclassified: metabolism,5.29486694,h-48
+Unclassified: genetic information processing,3.925936238,h-0
+Unclassified: genetic information processing,3.116786403,h-9
+Unclassified: genetic information processing,3.107624497,h-24
+Unclassified: genetic information processing,4.045168176,h-48
+Unclassified: signaling and cellular processes,2.89572602,h-0
+Unclassified: signaling and cellular processes,2.131154722,h-9
+Unclassified: signaling and cellular processes,2.169473705,h-24
+Unclassified: signaling and cellular processes,2.041518918,h-48
+Unclassified,3.327300571,h-0
+Unclassified,4.043280182,h-9
+Unclassified,4.041731535,h-24
+Unclassified,3.824835611,h-48
