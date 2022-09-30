@@ -11,7 +11,7 @@ library(randomcoloR)
 genus_table<-read.table("genus_matrix.txt", header=TRUE, row.names=1)
 n<-26
 my_color=distinctColorPalette(n)
-png("genus.png",  units="cm", width=20.5, height=20.5, res=600, pointsize = 4)
+png("Figure 1a.png",  units="cm", width=20.5, height=20.5, res=600, pointsize = 4)
 par(mar=c(8,12,8,40))
 barplot(as.matrix(genus_table), 
 	col=my_color, 

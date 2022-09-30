@@ -1,4 +1,4 @@
-Bin	metabat2.7	maxbin.012	maxbin.001	maxbin.030	metabat2.6	maxbin.020	maxbin.024	maxbin.018	maxbin.007	maxbin.013	metabat2.22
+Bin	Anoxybacillus	Enterococcus italicus	Exiguobacterium sp902362975	Lactobacillus delbrueckii	Lactococcus garvieae	Leuconostoc sp900554745	Limosilactobacillus fermentum	Rothia	Streptococcus ferus	Streptococcus infantarius	Weissella confusa
 Starch	3	3	2	3	2	2	0	0	2	4	1
 PCW	1	1	0	3	5	2	1	1	3	2	0
 Sucrose	0	0	0	1	0	2	1	2	1	3	1

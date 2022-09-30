@@ -1,4 +1,4 @@
-Bin	metabat2.7	maxbin.012	maxbin.001	maxbin.030	metabat2.6	maxbin.020	maxbin.024	maxbin.018	maxbin.007	maxbin.013	metabat2.22
+Bin	Anoxybacillus	Enterococcus italicus	Exiguobacterium sp902362975	Lactobacillus delbrueckii	Lactococcus garvieae	Leuconostoc sp900554745	Limosilactobacillus fermentum	Rothia	Streptococcus ferus	Streptococcus infantarius	Weissella confusa
 elfamycin	1	2	1	1	1	1	0	0	0	0	1
 fosfomycin	0	0	1	0	0	0	0	0	0	0	0
 fluoroquinolone	0	3	1	0	0	0	0	0	3	1	1
