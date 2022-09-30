@@ -6,11 +6,16 @@ Created on Sat Mar 13 14:41:34 2021
 https://github.com/DianaOaxaca
 #This script was created for kegg functions plot of pozol fermentation metagenome
 """
+#Install modules
+#pip3 install plotnine
+#pip3 install pandas
+#pip3 install numpy
+
 import pandas as pd
 import numpy as np
 from plotnine import *
 %matplotlib inline
-kegg2=pd.read_csv("/Users/Diana/OneDrive/POZOL_RAFA/2021/pozol_group_table.csv")                                                                                   
+kegg2=pd.read_csv("/Users/Diana/OneDrive/POZOL_RAFA/2021/KEGG_pozol_grouped.csv")                                                                                   
 (ggplot(kegg2, aes(x='Function', y='gene_abundance', fill='Fermentation_time')) 
  + geom_col(stat='identity', position='dodge') + coord_flip() + theme_classic()
  +labs(y='Number of genes', x='Categories', title='KEGG functional annotation'))
