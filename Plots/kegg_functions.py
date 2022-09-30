@@ -6,6 +6,11 @@ Created on Sat Mar 13 14:41:34 2021
 https://github.com/DianaOaxaca
 #This script was created for kegg functions plot of pozol fermentation metagenome
 """
+#Install modules
+#pip3 install plotnine
+#pip3 install pandas
+#pip3 install numpy
+
 import pandas as pd
 import numpy as np
 from plotnine import *
