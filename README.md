@@ -18,14 +18,13 @@ Fig. Pozol of white, yellow and blue maize from Chiapas. Image: Carmen Wacher
 
 The analysis were performed following this workflow, can be found in the following directories which contain result tables in the csv format, scripts and recipes for our workflow written in python and shell.Our directories are divided in specific workflow tasks.
 
-- Assembly and annotation
-- CAZymes
-- GhostKoala
-- Secondary Metabolites
-- Plots
-- KEGG decoder (Vitamin and aa pathways in MAGs)
-- SqueezeMeta
-- Taxonomy (Metagenomic profiles and MAGs)
+- Assembly and annotation (Metagenome samples)
+- CAZymes (Metagenome samples and MAGs)
+- GhostKoala (Metabolic Pathways Metagenome samples)
+- KEGG decoder (Vitamins and amino acids in MAGs)
+- Plots (Metagenome samples and MAGs)
+- SqueezeMeta (Bins)
+- Taxonomy (Metagenome samples and MAGs)
 
 
 
