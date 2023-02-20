@@ -1,0 +1,12 @@
+BIN taxonomy	riboflavin	arginine	lysine	threonine	cysteine	isoleucine	tryptophan
+Exiguobacterium sp902362975 	0.25	1	0	1	1	0.166	1.0
+Streptococcus ferus 	0.0	0	1	1	1	0.8300000000000000	1.0
+Enterococcus italicus	0.0	1	1	1	1	0.8300000000000000	1.0
+Streptococcus infantarius 	1.0	0	1	1	1	0.8300000000000000	1.0
+Rothia 	0.25	1	1	0	0	0.664	0.5
+Leuconostoc sp900554745 	1.0	0	1	1	0	0.166	1.0
+Limosilactobacillus fermentum 	1.0	1	1	1	1	0.332	0
+Lactobacillus delbrueckii 	1.0	1	1	1	1	0.166	0
+Anoxybacillus 	1.0	1	1	1	1	0.8300000000000000	1.0
+Weissella confusa 	1.0	0	1	0	0	0	0
+Lactococcus garvieae 	0.0	0	0	0	0	0.166	0

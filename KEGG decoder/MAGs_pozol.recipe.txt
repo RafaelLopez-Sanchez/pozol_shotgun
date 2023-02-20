@@ -1,0 +1,41 @@
+$ mkdir prokka
+$ ln -s ../*.fa .
+$ for cosa in $(cat list.txt);do(mkdir $cosa);done
+$ for cosa in $(cat list.txt);do(ln -s ~/pozol/Bins/$cosa.fa $cosa);done
+$ for cosa in $(cat list.txt);do(cd $cosa/ && ln -s ~/scripts/prokka.sh .);done
+$ for cosa in $(cat list.txt);do(cd $cosa/ && qsub -V prokka.sh);done
+
+
+########eggNOG##################
+
+1.Create folder 
+$ for cosa in $(cat lista.txt);do(cd $cosa/ && for loko in $(cat list.txt); do (cd $loko/ && mkdir KOfamscan);done);done
+
+2.Make symbolic links to kofamscan.sh and protein file
+$ for loko in $(cat list.txt); do (cd $loko/ && mkdir Kofamscan);done
+
+$ for loko in $(cat list.txt); do (cd $loko/Kofamscan && ln -s ~/scripts/kofamscan.sh .);done
+
+$ for loko in $(cat list.txt); do (cd $loko/Kofamscan  && ln -s ../annotation/*.faa .);done
+
+$ for loko in $(cat list.txt); do (cd $loko/Kofamscan  && qsub -V kofamscan.sh);done
+
+#MAKE THE KEGG DECORDER FILE
+
+3.Make symbolic links to kegg-decoder.sh file
+$ for loko in $(cat list.txt); do (cd $loko/Kofamscan && ln -s ~/scripts/kegg-decoder.sh .);done
+
+$ for loko in $(cat list.txt); do (cd $loko/Kofamscan && qsub -V kegg-decoder.sh);done
+
+# Create folders called kegg.paths_matrix.
+
+$ mkdir kegg.paths_matrix && cd kegg.paths_matrix
+
+#Create symbolic links to all norm.counts.txt archives and name them with their correspondent SRA.
+
+$ for loko in $(cat ../list.txt); do (ln -s /home/rafaells/pozol/Bins/prokka/$loko/Kofamscan/keggdecoder.list $loko);done
+ 
+Concatenate list in kegg_matrix.txt delete all the Function rows and just put the one in kegg_matrix.txt in the kegg.txt file
+$ cat * > kegg_matrix.txt
+$ sed '/Function/d' kegg_matrix.txt > kegg.txt
+

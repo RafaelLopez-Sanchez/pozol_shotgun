@@ -23,9 +23,9 @@ The analysis were performed following this workflow, can be found in the followi
 - GhostKoala
 - Secondary Metabolites
 - Plots
-- RGIs
+- KEGG decoder (Vitamin and aa pathways in MAGs)
 - SqueezeMeta
-- Taxonomy
+- Taxonomy (Metagenomic profiles and MAGs)
 
 
 

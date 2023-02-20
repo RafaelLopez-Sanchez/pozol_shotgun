@@ -1,7 +1,0 @@
-Contig	Cut_Off	Best_Identities	Drug Class	Resistance Mechanism	AMR Gene Family	Percentage Length of Reference Sequence
-megahit_29887_8 	Loose	68.97	fluoroquinolone antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	100.71
-megahit_29887_9	Strict	68.33	fluoroquinolone antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump	101.70
-megahit_59955_2 	Loose	67.65	macrolide antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump	99.68
-megahit_23900_16 	Loose	61.76	peptide antibiotic	antibiotic target alteration	defensin resistant mprF	100.12
-megahit_48206_61 	Loose	60.13	fluoroquinolone antibiotic	antibiotic target alteration	fluoroquinolone resistant gyrB	102.20
-megahit_79430_87 	Loose	60.02	rifamycin antibiotic	antibiotic target alteration; antibiotic target replacement	rifamycin-resistant beta-subunit of RNA polymerase (rpoB)	101.28

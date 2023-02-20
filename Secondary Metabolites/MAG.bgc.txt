@@ -1,4 +1,0 @@
-Bin	Anoxybacillus	Enterococcus italicus	Exiguobacterium sp902362975	Lactobacillus delbrueckii	Lactococcus garvieae	Leuconostoc sp900554745	Limosilactobacillus fermentum	Rothia	Streptococcus ferus	Streptococcus infantarius	Weissella confusa
-Bacteriocins	0	1	0	0	0	0	0	0	1	0	0
-Lanthipeptides class I	1	0	0	0	0	0	0	0	0	0	0
-Lanthipeptides class II	1	1	0	0	0	0	0	0	0	0	0

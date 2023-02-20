@@ -1,4 +1,0 @@
-Contig	Cut_Off	Best_Identities	Drug Class	Resistance Mechanism	AMR Gene Family	Percentage Length of Reference Sequence
-megahit_64767_6 	Loose	72.84	elfamycin antibiotic	antibiotic target alteration	elfamycin resistant EF-Tu	100.25
-megahit_18843_4 	Loose	64.83	fosfomycin	antibiotic target alteration	antibiotic-resistant murA transferase	102.85
-megahit_16196_2 	Loose	64.26	fluoroquinolone antibiotic	antibiotic target alteration	fluoroquinolone resistant gyrB	100.78
