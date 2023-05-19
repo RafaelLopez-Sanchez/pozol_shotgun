@@ -22,20 +22,27 @@ my_pallet <- colorRampPalette(c('black', 'green'))(n = 299)
 var1 <- c(rep("#e41a1c", 14),rep("#377eb8", 15),rep("#4daf4a", 3),rep("#984ea3", 1))
 #3. Define data characteristics
 col_breaks = c(seq(-0,1.09, length=100), seq(1.1,2.09,length=100), seq(2.1,8,length=100))
+
+# Convert cm to inches
+width_in <- 20.5 * 0.393701
+height_in <- 20.5 * 0.393701
+
+# Create the PDF file
+pdf("Figure 4b.pdf", width=width_in, height=height_in, pointsize = 4)
+
 #4. Draw heatmap
-png("Figure 3b.png",  units="cm", width=12.5, height=12.5, res=300)
 heatmap.2(as.matrix(cazymes), 
 	col = my_pallet, 
 	RowSideColors = var1,  
-	cex.main = 0.5,	
+	cex.main = 2.0,	
 	main = "CAZymes in MAGs", 
 	density.info = 'none', 
 	trace = 'none', 
 	dendrogram = 'col', 
 	Rowv = "NA", 
-	cexCol = 0.5, 
-	cexRow = 0.5, 
-	margins = c(6,8), 
+	cexCol = 2.4, 
+	cexRow = 2.0, 
+	margins = c(33,18), 
 	tracecol = "both", 
 	breaks =col_breaks,
 	colsep=1:nrow(cazymes),
@@ -44,14 +51,13 @@ heatmap.2(as.matrix(cazymes),
 	sepwidth=c(0.01, 0.01),
 	offsetRow=-0.3,
 	offsetCol=-0.3, 
-	key.title=TRUE, 
 	key.xlab="Number of CAZy families",
-	key.par = list(cex=0.6))
+	key.par = list(cex=1.6))
 ##Add legend to rowSide
-legend("bottomright", xpd = TRUE,
+legend("bottomleft", xpd = TRUE,
 	title="SUBSTRATE", 
 	text.font =2 , 
 	legend = c("Starch","PCW","Sucrose", "Fructan"),
 	col= c("#fbb4ae", "#b3cde3","#ccebc5","#decbe4"), 
-	lty = 1,lwd = 4, cex = 0.30)
+	lty = 1,lwd = 4, cex = 2.00)
 dev.off()
