@@ -46,9 +46,15 @@ ylabel= paste ("PCo2 (", ylabel, ")")
 H_CLustering=hclust(vegdist(beta,"bray"))
 
 # Plotting the figure
-png("Figure 1b.png",  units="cm", width=8.5, height=10.5, res=300)
+# Convert cm to inches
+width_in <- 8.5 * 0.393701
+height_in <- 10.5 * 0.393701
+
+# Start PDF device
+pdf("Figure 2b.pdf", width=width_in, height=height_in)
+#pdf("Figure 2b.pdf",  units="cm", width=8.5, height=10.5, res=300)
 # Adding the axes, grid, and other aestethics
-plot(beta_bray, family="Arial", type="n", xlab="", ylab="",ylim=c(-1,1), xlim=c(-1, 1), cex.axis=0.6, tck = -0.01, mgp = c(3, 0.2, 0), 
+plot(beta_bray, family="serif", type="n", xlab="", ylab="",ylim=c(-1,1), xlim=c(-1, 1), cex.axis=0.6, tck = -0.01, mgp = c(3, 0.2, 0), 
      xaxp  = c(-4, 4, 8), panel.first=grid(col = "white",lty=0))
 title(ylab=ylabel, line=1.2, cex.lab=0.7)
 title(xlab=xlabel, line=1.2, cex.lab=0.7)

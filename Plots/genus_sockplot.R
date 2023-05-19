@@ -8,10 +8,17 @@ Created on Mar 18 2021
 #This script was created for abundances of pozol's bacteria fermentation metagenome at the genus level
 """
 library(randomcoloR)
-genus_table<-read.table("genus_matrix.txt", header=TRUE, row.names=1)
-n<-26
-my_color=distinctColorPalette(n)
-png("Figure 1a.png",  units="cm", width=20.5, height=20.5, res=600, pointsize = 4)
+genus_table <- read.table("genus_matrix.txt", header=TRUE, row.names=1)
+n <- 26
+my_color = distinctColorPalette(n)
+
+# Convert cm to inches
+width_in <- 20.5 * 0.393701
+height_in <- 20.5 * 0.393701
+
+# Create the PDF file
+pdf("Figure 2a.pdf", width=width_in, height=height_in, pointsize = 4)
+
 par(mar=c(8,12,8,40))
 barplot(as.matrix(genus_table), 
 	col=my_color, 
@@ -22,10 +29,11 @@ barplot(as.matrix(genus_table),
 	ylab="Relative abundance (%)", 
 	xlab="Fermentation Time", 
 	legend.text=TRUE, 
-	args.legend = list(x=ncol(genus_table)+3, 
+	args.legend = list(x=ncol(genus_table)+5, 
 	y=max(colSums(genus_table)), 
-	cex=3.0))
+	cex=2.0))
 dev.off()
+
 
 
 
