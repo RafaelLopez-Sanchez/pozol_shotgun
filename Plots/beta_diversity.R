@@ -65,5 +65,12 @@ par(lty=2)
 # Adding the hierarchical clustering
 ordicluster(beta_bray, H_CLustering,  display = "sites", col = "grey", lwd = 0.5)
 
-# Adding the samples at the end to be on top of all the other plotted elementstext(beta_bray,cex= 1,pch=21, col=c("green", "red", "blue", "black"), bg= colvec, lwd = 0.5)
-dev.off()
+# Additional time labels for your data
+time_points <- c("0 h", "9 h", "24 h", "48 h")
+
+# Adding the samples at the end to be on top of all the other plotted elements.
+points <- scores(beta_bray, display = "sites")
+text(points, labels = time_points, cex= 1, pos=3, col=c("green", "red", "blue", "black"))
+dev.off()
+
+

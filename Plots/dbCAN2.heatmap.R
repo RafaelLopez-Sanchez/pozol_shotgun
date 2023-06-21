@@ -55,7 +55,7 @@ heatmap.2(as.matrix(cazymes),
 	key.par = list(cex=1.6))
 ##Add legend to rowSide
 legend("bottomleft", xpd = TRUE,
-	title="SUBSTRATE", 
+	title="Substrate", 
 	text.font =2 , 
 	legend = c("Starch","PCW","Sucrose", "Fructan"),
 	col= c("#fbb4ae", "#b3cde3","#ccebc5","#decbe4"), 

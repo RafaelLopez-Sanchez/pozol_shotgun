@@ -15,6 +15,33 @@ my_color=distinctColorPalette(n)
 width_in <- 20.5 * 0.393701
 height_in <- 20.5 * 0.393701
 
+# Additional time labels for your data
+time_points <- c("0 h", "9 h", "24 h", "48 h")
+
+# Create the PDF file
+pdf("FigureS1.pdf", width=width_in, height=height_in, pointsize = 4)
+par(mar=c(8,12,8,40))
+
+par(mar=c(8,12,8,40))
+barplot(as.matrix(phyla_table), 
+        names.arg = time_points, 
+        col=my_color, 
+	cex.axis=2.4, 
+	cex.lab=3.0, 
+	cex.names=2.4, 
+	las=0.4,   
+	ylab="Relative abundance (%)", 
+	xlab="Fermentation time", 
+	legend.text=TRUE, 
+	args.legend = list(x=ncol(phyla_table)+5, 
+	y=max(colSums(phyla_table)), 
+	cex=2.0))
+dev.off()
+
+
+
+
+
 # Create the PDF file
 pdf("FigureS1.pdf", width=width_in, height=height_in, pointsize = 4)
 par(mar=c(8,12,8,40))

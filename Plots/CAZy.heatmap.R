@@ -30,6 +30,15 @@ col_breaks = c(0:2, seq(from = 40, to = max(cazymes) + 10, by = 10))
 width_in <- 20.5 * 0.393701
 height_in <- 20.5 * 0.393701
 
+
+# Additional time labels for your data
+time_points <- c("0 h", "9 h", "24 h", "48 h")
+
+# Assigning the labels to the columns of your data
+colnames(cazymes) <- time_points
+
+# Then continue with your script...
+
 # Create the PDF file
 pdf("Figure 4a.pdf", width=width_in, height=height_in, pointsize = 4)
 
