@@ -28,19 +28,25 @@ pheatmap(MAG, cluster_cols = FALSE, display_numbers = non_zero,  cluster_rows = 
 
 ##########################################################################
 
+##########################################################################
+
 ##################### Heatmap KEGG PATHWAYS #################
-setwd("~/Desktop")library(pheatmap)
+
+setwd("~/Desktop")
+library(pheatmap)
+
 #Load MAG annotation.
-MAG=read.table('kegg_aa_MAGs.txt', header=TRUE, row.names=1, sep="\t")
+MAG <- read.table('kegg_aa_MAGs.txt', header=TRUE, row.names=1, sep="\t")
 as.data.frame(MAG) -> MAG
 
-#Color palette for the heatmapmy_palette <- colorRampPalette(c("white", "green", "forestgreen"))(n = 40)
+# Color palette for the heatmap
+my_palette <- colorRampPalette(c("white", "green", "forestgreen"))(n = 40)
 
-#Transpose the data frames.MAG=t(MAG)
+# Transpose the data frames.
+MAG <- t(MAG)
 
+pdf("FigureS2.pdf", width = 10.75, height = 5.63, pointsize = 12)
+pheatmap(MAG, cluster_cols = FALSE, cluster_rows = FALSE, color = my_palette, main = "Completeness of biosynthesis pathways of amino acids and vitamins in MAGs found in pozol", cex.lab = 0.7)
+dev.off()
 
-png("Figure S3.png", width=2800, height=1800, res = 300)
-pheatmap(MAG, cluster_cols = FALSE,  cluster_rows = FALSE, color= my_palette, main = "Completeness of Biosynthesis pathways of amino acids and vitamins in MAGs found in pozol", cex.lab=0.7)
-
-dev.off()
 
